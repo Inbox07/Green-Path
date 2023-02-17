@@ -1,0 +1,41 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar{
+    display: inline-flex;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.57);
+    max-width: 500px;
+}
+a{
+   text-decoration: none;
+   display: inline-flex;
+
+
+}
+li a{
+    list-style:none;
+    display: inline-flex;
+    max-width: 500px;
+    position: fixed;
+    top: 23px;
+ }
+
+ /*Las 2 secciones de comidas*/
+
+ .right{
+    background-color: black;
+    box-shadow: black 4px 4px 4px 15px;
+    max-width: 50%;
+    height: 400px;
+ }
+ .right img{
+    border-radius: 50px;
+ }
+
+ .right img:hover{
+    box-shadow: black 4px 4px 4px 15px;
+
+ }
