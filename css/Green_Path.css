@@ -4,25 +4,41 @@ body{
     background: cover;
 }
 
-.navbar{
-    display: inline-flex;
-    position: fixed;
-    background: rgba(0, 0, 0, 0.57);
-    max-width: 500px;
-}
-a{
-   text-decoration: none;
-   display: inline-flex;
-
-
-}
-li a{
-    list-style:none;
-    display: inline-flex;
-    max-width: 500px;
-    position: fixed;
-    top: 23px;
+nav {
+   background-color: #333;
+   height: 50px;
  }
+ li input{
+   border-radius: 9px;
+   max-width: 200px;
+   transform: translateY(10px) translateX(200px);
+   font-size: 17px;
+   color: rgb(182, 181, 181);
+   background-color: #111;
+ }
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+ 
+ li {
+   float: left;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover {
+   background-color: #111;
+ }
+ 
 
  /*Las 2 secciones de comidas*/
 
@@ -38,5 +54,14 @@ li a{
 
  .right img:hover{
     box-shadow: black 4px 4px 4px 15px;
-
+ }
+ .slogan{
+   color: yellow;
+ }
+ .texto_1{
+   color: white;
+ }
+ .text_2{
+   font-size: 30px;
+   color: white;
  }
